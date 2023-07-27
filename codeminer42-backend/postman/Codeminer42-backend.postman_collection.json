@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "285b7f25-0a54-49f2-92ca-95ab954cc30a",
+		"name": "Codeminer42-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "List Pilots",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save pilot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"certification\": \"123.345.123-12\",\r\n    \"name\": \"Buzz\",\r\n    \"credits\": 100.0,\r\n    \"location\": \"Aqua\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Pilot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pilots/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save ship",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"certification\": \"123.345.123-12\",\r\n    \"name\": \"Buzz\",\r\n    \"credits\": 100.0,\r\n    \"location\": \"Aqua\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pilot ships",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"certification\": \"123.345.123-12\",\r\n    \"name\": \"Buzz\",\r\n    \"credits\": 100.0,\r\n    \"location\": \"Aqua\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save cargos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"certification\": \"123.345.123-12\",\r\n    \"name\": \"Buzz\",\r\n    \"credits\": 100.0,\r\n    \"location\": \"Aqua\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/cargos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cargos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Contracts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save contract",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"certification\": \"123.345.123-12\",\r\n    \"name\": \"Buzz\",\r\n    \"credits\": 100.0,\r\n    \"location\": \"Aqua\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/cargos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cargos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Execute Contract",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Routes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/pilots",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pilots"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

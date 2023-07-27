@@ -1,0 +1,35 @@
+{
+  "labels": {
+    "appointment_details": "Appointment Details",
+    "appointment_status": {
+      "absent": "Absent",
+      "cancelled": "Cancelled",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "appointment_types": {
+      "checkUp": "Check Up",
+      "exam": "Exam",
+      "firstVisit": "First visit",
+      "followUp": "Follow Up",
+      "surgery": "Surgery"
+    },
+    "calendar": "Calendar",
+    "days_of_week": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri"
+    },
+    "dashboard": "Dashboard",
+    "history": "History",
+    "latest_app": "Latest app.",
+    "patient": "Patient|Patients",
+    "patient_info": "Patient info",
+    "patient_view": "Patient view",
+    "plan_info": "Plan info",
+    "upcoming": "Upcoming",
+    "yo": "y/o"
+  }
+}
